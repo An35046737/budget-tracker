@@ -1,112 +1,115 @@
-markdown
-# SpendWise Dashboard
+# SpendWise – Personal Budget and Expense Tracker
 
-## Project Overview
+## 1. Project Description
 
-SpendWise is a personal budget and expense tracker dashboard. This Week 4 project rebuilds the tracker layout using modern CSS Grid and Flexbox techniques.
+SpendWise is a web-based personal budget and expense tracking application designed to help users manage their finances effectively. It provides a simple and user-friendly dashboard for monitoring expenses, organizing budgets, and tracking spending across different categories.
 
-The dashboard provides a visual structure for monitoring income, expenses, savings, and different spending categories.
+The main goal of SpendWise is to help users develop better financial management habits by making it easier to understand where their money goes and how to control their spending.
 
-## What I Built
+## 2. Project Objectives
 
-The dashboard contains:
+- Help users monitor their daily expenses.
+- Organize spending into different budget categories.
+- Provide a simple and user-friendly dashboard.
+- Help users manage their personal budgets.
+- Encourage better saving and financial planning habits.
 
-- A SpendWise sidebar/navigation menu
-- A dashboard header
-- User profile section
-- Income, expenses, and remaining balance summary cards
-- Six financial category cards
-- Responsive mobile layout
-- Hover and keyboard focus micro-interactions
-- CSS custom properties for the application theme
-- Optional dark theme using the user's system preference
+## 3. Technologies Used
 
-## Main Files
+The following technologies and tools were used to develop and deploy SpendWise:
 
-### index.html
+- **HTML5:** Used to structure the application and its content.
+- **CSS3:** Used to style the application, create layouts, and improve its appearance.
+- **JavaScript:** Used to add interactivity and dynamic functionality.
+- **Git:** Used for version control and tracking project changes.
+- **GitHub:** Used to store and manage the project's source code in a public repository.
+- **Netlify:** Used to host the website and enable automatic deployments from GitHub.
 
-The `index.html` file contains the structure of the dashboard.
+## 4. Project Structure
 
-It includes:
+The project contains the following main files:
 
-- Sidebar navigation
-- Header
-- Summary section
-- Spending category cards
-- Static financial information
+```text
+SpendWise/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-### style.css
+- `index.html` – Contains the structure of the SpendWise application.
+- `style.css` – Contains the styling and layout of the application.
+- `script.js` – Contains the JavaScript functionality and interactive features.
+- `README.md` – Provides information about the project and its deployment.
 
-The `style.css` file controls the appearance and layout of the dashboard.
+## 5. GitHub Repository Information
 
-It uses:
+The SpendWise project is maintained in a public GitHub repository.
 
-- CSS Grid for the main dashboard and card layout
-- Flexbox for sidebar navigation, header content, and cards
-- CSS custom properties for colors
-- Media queries for responsive design
-- Hover and keyboard focus effects
-- Dark theme support
+- **Project Name:** SpendWise
+- **Repository Name:** SpendWise
+- **Repository Visibility:** Public
+- **GitHub Repository URL:** https://github.com/YOUR-USERNAME/SpendWise
 
-## CSS Grid
+The GitHub repository contains the complete project source code and documentation.
 
-CSS Grid is used for the main dashboard layout.
+## 6. Live Netlify Website
 
-The desktop layout has two columns:
+SpendWise is deployed and hosted on Netlify, making it accessible through the internet.
 
-- Sidebar
-- Main content
+**Live Website URL:**
 
-Grid is also used to arrange the summary cards and spending category cards.
+https://YOUR-SITE-NAME.netlify.app
 
-## Flexbox
+The live website allows users to access the SpendWise application through a web browser without installing additional software.
 
-Flexbox is used for:
+## 7. Deployment Process Summary
 
-- Sidebar navigation
-- Header alignment
-- User profile
-- Dashboard cards
-- Card content
+The following steps were followed to deploy SpendWise:
 
-## Responsive Design
+### Step 1: Deployment Readiness
 
-A media query is included for screens smaller than 768px.
+Reviewed the project structure and ensured that all required files were organized correctly. Checked that the HTML file correctly referenced the CSS stylesheet and JavaScript file.
 
-On smaller screens:
+### Step 2: GitHub Repository Creation
 
-- The sidebar and main content become a single-column layout.
-- Summary cards stack vertically.
-- Category cards stack vertically.
-- Header content is rearranged for smaller screens.
+Created a public GitHub repository named SpendWise to store the project's source code.
 
-The responsive layout can be tested using the browser DevTools Device Toolbar.
+### Step 3: Uploading Project Files
 
-## Micro-interactions
+Used Git commands to initialize the repository, stage the project files, commit changes, and push the project to GitHub.
 
-The spending category cards include hover and keyboard focus effects.
+### Step 4: Netlify Deployment
 
-The effects use:
+Connected the GitHub repository to Netlify and configured the deployment settings.
 
-- `transform`
-- `box-shadow`
-- `transition`
+The publish directory was configured to the project root directory because the application uses standard HTML, CSS, and JavaScript without a separate build process.
 
-The transition duration is 0.2 seconds, which is below the required 250 milliseconds.
+### Step 5: Custom Site Name
 
-## Dark Theme
+Changed the default Netlify site name to a meaningful name related to the SpendWise project.
 
-A dark theme is included using:
+### Step 6: Continuous Deployment
 
-css
-@media (prefers-color-scheme: dark)
+Connected Netlify to the GitHub repository to enable automatic deployment whenever new changes are pushed to the main branch.
 
+Made a visible update to the application, committed the changes, and pushed them to GitHub to test automatic deployment.
 
-The dark theme changes the CSS custom properties in `:root` rather than rewriting the entire stylesheet.
+### Step 7: Final Testing
 
-## Conclusion
+Opened the live Netlify website and checked that the application loaded correctly. Tested the page layout, styles, JavaScript functionality, and other project assets.
 
-This project provides the visual foundation for the SpendWise budget tracker capstone project. It demonstrates the use of modern CSS layout techniques while keeping the financial information static and focused on the dashboard structure.
+## 8. Continuous Deployment Testing
 
+Continuous deployment was tested by making a visible change to the SpendWise application.
 
+The following process was used:
 
+1. Modified the application source code.
+2. Saved the changes locally.
+3. Used Git to stage and commit the changes.
+4. Pushed the updated code to GitHub.
+5. Checked the Netlify deployment dashboard.
+6. Confirmed that Netlify started a new deployment automatically.
+7. Opened the live website and checked that the latest
